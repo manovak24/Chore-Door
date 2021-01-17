@@ -11,8 +11,6 @@ let score = 0;
 let highScore = 0;
 let currentStreak = document.getElementById('score-number');
 let bestStreak = document.getElementById('high-score-number');
-currentStreak.innerHTML = score;
-bestStreak.innerHTML = highScore;
 
 const botDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg";
 const beachDoorPath = "https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/beach.svg";
@@ -99,20 +97,18 @@ const startRound = () => {
 const gameOver = (status) => {
     if (status === 'win') {
         startButton.innerHTML = 'You win! Play again?';
+        score++;
+        currentStreak.innerText = score;
+        if (score > highScore) {
+            highScore++;
+            bestStreak.innerText = highScore;
+        }
     } else {
-        startButton.innerHTML = 'Game over! Play again?'
+        startButton.innerHTML = 'Game over! Play again?';
+        score = 0;
+        currentStreak.innerText = score;
     };
     currentlyPlaying = false;
 };
-
-const getYourScore = () => {
-    score++;
-    currentStreak.innerHTML = score;
-    if (score > highScore) {
-      highScore = score;
-      bestStreak.innerHTML = highScore;
-    }
-  }
-  
 
 startRound();
