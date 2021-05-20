@@ -1,5 +1,5 @@
 body {
-    background-color: #010165;
+    background-color: #14da77;
     margin: 0px;
   }
 
@@ -16,7 +16,7 @@ body {
 .instructions-title {
   display: inline;
   font-size: 18px;
-  color: #00ffff;
+  color: #690591;
   font-family: 'Work Sans';
 }
 
@@ -29,14 +29,14 @@ body {
   padding-right: 25px;
   font-family: 'Work Sans';
   font-size: 36px;
-  color: #00ffff;
+  color: #690591;
 }
 
 .instructions-text {
   padding: 10px;
   font-family: 'Work Sans';
   font-size: 14px;
-  color: #00ffff;
+  color: #690591;
 }
 
 .door-row {
@@ -84,7 +84,7 @@ body {
   margin: 18px;
   margin-right: 29px;
   width: 59px;
-  background-color: #00ffff;
+  background-color: #14da77;
   font-family: 'Work Sans';
   font-size: 45px;
 }
