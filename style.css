@@ -12,6 +12,18 @@ body {
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #d2ff2f, #ce2fffa1);
   height: 4rem;
+  position: relative;
+  
+}
+
+.site-title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #42025c;
 }
 
 .title-row {
@@ -23,7 +35,7 @@ body {
 .instructions-title {
   display: inline;
   font-size: 18px;
-  color: #690591;
+  color: #42025c;
   font-family: 'Work Sans';
 }
 
@@ -36,14 +48,14 @@ body {
   padding-right: 25px;
   font-family: 'Work Sans';
   font-size: 36px;
-  color: #690591;
+  color: #42025c;
 }
 
 .instructions-text {
   padding: 10px;
   font-family: 'Work Sans';
   font-size: 14px;
-  color: #690591;
+  color: #42025c;
 }
 
 .door-row {
@@ -87,7 +99,7 @@ body {
   font-family: 'Work Sans';
   font-size: 12px;
   letter-spacing: 1.1px;
-  color: #010165;
+  color: #42025c;
 }
 
 .score-box {
@@ -106,4 +118,5 @@ body {
 	background: linear-gradient(to right, #d2ff2f, #ce2fffa1);
   font-family: 'Work Sans';
   font-size: 45px;
+  color: #42025c;
 }
