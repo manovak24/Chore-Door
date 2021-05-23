@@ -1,10 +1,17 @@
 body {
-    background-color: #14da77;
+    background-color: #25fde0a1;
     margin: 0px;
   }
 
 .header {
-  background-color: #f8a63b;
+  background: #d2ff2f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#d2ff2f,
+		#ce2fffa1
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #d2ff2f, #ce2fffa1);
+  height: 4rem;
 }
 
 .title-row {
@@ -53,7 +60,13 @@ body {
   width: 120px;
   height: 43px;
   font-family: 'Work Sans';
-  background-color: #f8a63b;
+  background: #d2ff2f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#d2ff2f,
+		#ce2fffa1
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #d2ff2f, #ce2fffa1);
   padding-top: 18px;
   font-size: 18px;
   text-align: center;
@@ -74,7 +87,7 @@ body {
   font-family: 'Work Sans';
   font-size: 12px;
   letter-spacing: 1.1px;
-  color: #ffffff;
+  color: #010165;
 }
 
 .score-box {
@@ -84,7 +97,13 @@ body {
   margin: 18px;
   margin-right: 29px;
   width: 59px;
-  background-color: #f8a63b;
+  background: #d2ff2f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#d2ff2f,
+		#ce2fffa1
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #d2ff2f, #ce2fffa1);
   font-family: 'Work Sans';
   font-size: 45px;
 }
